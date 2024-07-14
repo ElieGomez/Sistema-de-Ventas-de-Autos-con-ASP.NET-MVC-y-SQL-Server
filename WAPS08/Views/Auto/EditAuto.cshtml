@@ -1,0 +1,147 @@
+﻿@model WAPS08.Models.ViewModels.EditAutoViewModels
+@{
+    ViewBag.Title = "Edita Auto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <style>
+        .boton-volver {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+            .boton-volver:hover {
+                background-color: #333;
+                color: #fff;
+            }
+
+        .boton-guardar {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #00ff21;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+            .boton-guardar:hover {
+                background-color: #00ff21;
+                color: #000000;
+            }
+
+        .boton-cargarimg {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #0026ff;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+            .boton-cargarimg:hover {
+                background-color: #0026ff;
+                color: #fff;
+            }
+    </style>
+</head>
+
+<h2 style="font-family: Georgia, 'Times New Roman', Times, serif; text-align:center">Editar Auto</h2>
+
+<div class="col-md-12">
+    <br />
+    <br />
+
+    @using (Html.BeginForm("EditAuto", "Auto", FormMethod.Post, new { role = "form", @class = "" }))
+    {
+        @Html.HiddenFor(d => d.IdAuto)
+
+        @Html.AntiForgeryToken()
+
+        @Html.ValidationMessage("error", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(d => d.Marca)
+            @Html.TextBoxFor(d => d.Marca, new { @class = "form-control" })
+            @Html.ValidationMessage("Marca", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Modelo)
+            @Html.TextBoxFor(d => d.Modelo, new { @class = "form-control" })
+            @Html.ValidationMessage("Modelo", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Anio)
+            @Html.TextBoxFor(d => d.Anio, new { type = "number", @class = "form-control" })
+            @Html.ValidationMessage("Agnio", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Color, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+            @Html.TextBoxFor(d => d.Color, new { @class = "form-control" })
+            @Html.ValidationMessage("Color", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.TipoVehiculo, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+            @Html.TextBoxFor(d => d.TipoVehiculo, new { @class = "form-control" })
+            @Html.ValidationMessage("TipoVehiculo", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Precio, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+            @Html.TextBoxFor(d => d.Precio, new { type = "number", @class = "form-control" })
+            @Html.ValidationMessage("Precio", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+
+            @Html.LabelFor(d => d.Direccion, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+            @Html.TextBoxFor(d => d.Direccion, new { @class = "form-control" })
+            @Html.ValidationMessage("Direccion", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Imagen, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+            @Html.TextBoxFor(d => d.Imagen, new { type = "text", @class = "form-control", id = "imagenInput" })
+            @Html.ValidationMessage("Imagen", new { @class = "text-danger" })
+        </div>
+        <br />
+
+        <div style="text-align:left;">
+            <input type="submit" value="Guardar" class="boton-guardar" />
+            <input type="button" value="Cargar Imagen" class="boton-cargarimg" id="botonCargar" />
+            <input type="button" value="Volver Atras" class="boton-volver" onclick="document.location.href = '@Url.Content("~/Auto/query")'" />
+        </div>
+        <br />
+        <br />
+        <div class="jumbotron" style="border: solid 1px black;">
+            <img style="width: 100%; height: 100%; object-fit: cover; " src="#" id="imagenVisualizada" class="card-img-top" alt="Carga Una Imagen">
+            <div class="card-body">
+                <h5 style="font-family: Georgia, 'Times New Roman', Times, serif;" class="card-title">Vista previa de la imagen</h5>
+            </div>
+        </div>
+
+    }
+</div>
+<script>
+
+    var previewButton = document.getElementById('botonCargar');
+    var imagenInput = document.getElementById('imagenInput');
+
+    previewButton.addEventListener('click', function () {
+        var imageUrl = imagenInput.value;
+        document.getElementById('imagenVisualizada').src = imageUrl;
+    });
+
+</script>
+
+
+

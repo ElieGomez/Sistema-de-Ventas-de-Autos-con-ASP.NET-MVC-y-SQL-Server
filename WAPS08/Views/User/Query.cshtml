@@ -1,0 +1,141 @@
+﻿@model List<WAPS08.Models.ViewModels.UserTableViewModel>
+@{
+    ViewBag.Title = "Consulta Usuario";
+    //Layout = "~/Views/Shared/_LayoutAcceso.cshtml";
+}
+
+<head>
+    <style>
+        .boton-volver {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+            .boton-volver:hover {
+                background-color: #333;
+                color: #fff;
+            }
+        .boton-eliminar {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: darkred;
+            border: 2px solid darkred;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+
+
+            .boton-eliminar:hover {
+                background-color: darkred;
+                color: #fff;
+                border: 2px solid #333;
+            }
+        .boton-editar {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #808080;
+            border: 2px solid #808080;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+
+            .boton-editar:hover {
+                background-color: #808080;
+                color: white;
+                border: 2px solid #333;
+            }
+        .boton-nuevo {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #4cff00;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+
+            .boton-nuevo:hover {
+                background-color: #4cff00;
+                color: white;
+                border: 2px solid #333;
+            }
+    </style>
+</head>
+
+<link href="@Url.Content("~/Content/tabla.css")" rel="stylesheet" type="text/css" />
+<h3 style="font-family: Georgia, 'Times New Roman', Times, serif; text-align:center">Consulta Usuarios</h3>
+
+<div class="row">
+    <br />
+
+    <div class="col-md-12">
+        <input type="button" class="boton-nuevo" onclick="document.location.href='@Url.Content("~/User/Add")'" value="Nuevo" />
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <div class="col-lg-12">
+        <table  class="table table-bordered">
+            <tr>
+                <th style="background-color: black; color: white;">ID</th>
+                <th style="background-color: black; color: white;">Email</th>
+                <th style="background-color: black; color: white;">Edad</th>
+                <th style="background-color: black; color: white; text-align:center; width:200px ">Accion a Tomar</th>
+            </tr>
+            @foreach (var oElmento in Model)
+            {
+                <tr >
+                    <td>@oElmento._Id</td>
+                    <td>@oElmento._Email</td>
+                    <td>@oElmento._Edad</td>
+                    <td style="text-align:center">
+                        <input type="button" value="Editar" class="boton-editar" onclick="document.location.href = '@Url.Content("~/User/Edit/" + oElmento._Id)'" />
+                        <input type="button" value="Borrar" class="boton-eliminar" onclick="jsDelete(@oElmento._Id);" />
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<div style="text-align: right;">
+    <input type="button" class="boton-volver"  value="Volver Atras" onclick="document.location.href = '@Url.Content("~/")'" />
+</div>
+
+
+<script>
+    function jsDelete(Id) {
+        if (confirm("Estas seguro de borrar?")) {
+            url = "@Url.Content("~/User/Delete")" + "/" + Id;
+            $.post(url, function (data) {
+                if (data == "1") {
+                    document.location.href = "@Url.Content("~/user/query")"
+                } else {
+                    alert("Ocurrio un error :(")
+                }
+            })
+        }
+    }
+
+</script>

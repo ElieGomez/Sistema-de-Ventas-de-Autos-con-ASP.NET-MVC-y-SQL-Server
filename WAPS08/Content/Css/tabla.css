@@ -1,0 +1,111 @@
+﻿
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+
+body {
+    background: url(/Content/Img/fondo.jpg);
+    margin: auto;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.botones {
+}
+.columnas #accion {
+    margin: 0%;
+    padding-left: 0%;
+}
+
+
+
+body {
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+#titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    margin: auto;
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(124, 117, 117, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+table-table-bordered:hover, tr:hover {
+    background-color: rgb(193, 207, 209);
+}
+
+#tabla {
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.table-table-bordered {
+    border-radius: 10px;
+}
+
+.cabecera-tabla th {
+    background: rgb(8, 150, 150);
+    color: white;
+    text-align: center;
+}
+
+#botonBorrar #botonEditar {
+    margin: auto;
+}
+
+.registros-botones td input {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+    footer p {
+        margin: 10px 0;
+    }
+
+    footer a {
+        color: #3c97bf;
+        text-decoration: none;
+    }

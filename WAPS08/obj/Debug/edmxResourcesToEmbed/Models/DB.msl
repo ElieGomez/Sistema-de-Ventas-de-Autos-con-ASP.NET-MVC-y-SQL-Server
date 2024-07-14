@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBMVCSCModelStoreContainer" CdmEntityContainer="DBMVCSCEntities">
+    <EntitySetMapping Name="mStatus">
+      <EntityTypeMapping TypeName="DBMVCSCModel.mStatu">
+        <MappingFragment StoreEntitySet="mStatus">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Idstatus" ColumnName="Idstatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="DBMVCSCModel.USER">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="idEstatus" ColumnName="idEstatus" />
+          <ScalarProperty Name="Edad" ColumnName="Edad" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUTOS">
+      <EntityTypeMapping TypeName="DBMVCSCModel.AUTO">
+        <MappingFragment StoreEntitySet="AUTOS">
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="TipoVehiculo" ColumnName="TipoVehiculo" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Anio" ColumnName="Anio" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="ImgRuta" ColumnName="ImgRuta" />
+          <ScalarProperty Name="miEstatus" ColumnName="miEstatus" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="IDauto" ColumnName="IDauto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VHESTATUS">
+      <EntityTypeMapping TypeName="DBMVCSCModel.VHESTATU">
+        <MappingFragment StoreEntitySet="VHESTATUS">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IDestatus" ColumnName="IDestatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

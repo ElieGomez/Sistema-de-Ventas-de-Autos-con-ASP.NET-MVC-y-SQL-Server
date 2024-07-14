@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBMVCSCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AUTOS">
+    <Key>
+      <PropertyRef Name="IDauto" />
+    </Key>
+    <Property Name="IDauto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="50" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Anio" Type="varchar" MaxLength="5" />
+    <Property Name="Color" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoVehiculo" Type="nvarchar" MaxLength="30" />
+    <Property Name="Precio" Type="float" />
+    <Property Name="ImgRuta" Type="text" />
+    <Property Name="miEstatus" Type="int" />
+    <Property Name="Direccion" Type="text" />
+  </EntityType>
+  <EntityType Name="mStatus">
+    <Key>
+      <PropertyRef Name="Idstatus" />
+    </Key>
+    <Property Name="Idstatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Edad" Type="int" Nullable="false" />
+    <Property Name="idEstatus" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VHESTATUS">
+    <Key>
+      <PropertyRef Name="IDestatus" />
+    </Key>
+    <Property Name="IDestatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_AUTOS_VHESTATUS">
+    <End Role="VHESTATUS" Type="Self.VHESTATUS" Multiplicity="0..1" />
+    <End Role="AUTOS" Type="Self.AUTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VHESTATUS">
+        <PropertyRef Name="IDestatus" />
+      </Principal>
+      <Dependent Role="AUTOS">
+        <PropertyRef Name="miEstatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USERS_mStatus">
+    <End Role="mStatus" Type="Self.mStatus" Multiplicity="1" />
+    <End Role="USERS" Type="Self.USERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mStatus">
+        <PropertyRef Name="Idstatus" />
+      </Principal>
+      <Dependent Role="USERS">
+        <PropertyRef Name="idEstatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBMVCSCModelStoreContainer">
+    <EntitySet Name="AUTOS" EntityType="Self.AUTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mStatus" EntityType="Self.mStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VHESTATUS" EntityType="Self.VHESTATUS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AUTOS_VHESTATUS" Association="Self.FK_AUTOS_VHESTATUS">
+      <End Role="VHESTATUS" EntitySet="VHESTATUS" />
+      <End Role="AUTOS" EntitySet="AUTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USERS_mStatus" Association="Self.FK_USERS_mStatus">
+      <End Role="mStatus" EntitySet="mStatus" />
+      <End Role="USERS" EntitySet="USERS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

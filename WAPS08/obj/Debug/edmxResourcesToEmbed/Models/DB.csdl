@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBMVCSCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBMVCSCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="mStatus" EntityType="DBMVCSCModel.mStatu" />
+    <EntitySet Name="USERS" EntityType="DBMVCSCModel.USER" />
+    <AssociationSet Name="FK_USERS_mStatus" Association="DBMVCSCModel.FK_USERS_mStatus">
+      <End Role="mStatu" EntitySet="mStatus" />
+      <End Role="USER" EntitySet="USERS" />
+    </AssociationSet>
+    <EntitySet Name="AUTOS" EntityType="DBMVCSCModel.AUTO" />
+    <EntitySet Name="VHESTATUS" EntityType="DBMVCSCModel.VHESTATU" />
+    <AssociationSet Name="FK_AUTOS_VHESTATUS" Association="DBMVCSCModel.FK_AUTOS_VHESTATUS">
+      <End Role="VHESTATU" EntitySet="VHESTATUS" />
+      <End Role="AUTO" EntitySet="AUTOS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="mStatu">
+    <Key>
+      <PropertyRef Name="Idstatus" />
+    </Key>
+    <Property Name="Idstatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="USERS" Relationship="DBMVCSCModel.FK_USERS_mStatus" FromRole="mStatu" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Edad" Type="Int32" Nullable="false" />
+    <Property Name="idEstatus" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="mStatu" Relationship="DBMVCSCModel.FK_USERS_mStatus" FromRole="USER" ToRole="mStatu" />
+  </EntityType>
+  <Association Name="FK_USERS_mStatus">
+    <End Type="DBMVCSCModel.mStatu" Role="mStatu" Multiplicity="1" />
+    <End Type="DBMVCSCModel.USER" Role="USER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mStatu">
+        <PropertyRef Name="Idstatus" />
+      </Principal>
+      <Dependent Role="USER">
+        <PropertyRef Name="idEstatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="AUTO">
+    <Key>
+      <PropertyRef Name="IDauto" />
+    </Key>
+    <Property Name="IDauto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="miEstatus" Type="Int32" />
+    <Property Name="ImgRuta" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Modelo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Anio" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="VHESTATU" Relationship="DBMVCSCModel.FK_AUTOS_VHESTATUS" FromRole="AUTO" ToRole="VHESTATU" />
+    <Property Name="Color" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="TipoVehiculo" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Precio" Type="Double" />
+    <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VHESTATU">
+    <Key>
+      <PropertyRef Name="IDestatus" />
+    </Key>
+    <Property Name="IDestatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AUTOS" Relationship="DBMVCSCModel.FK_AUTOS_VHESTATUS" FromRole="VHESTATU" ToRole="AUTO" />
+  </EntityType>
+  <Association Name="FK_AUTOS_VHESTATUS">
+    <End Type="DBMVCSCModel.VHESTATU" Role="VHESTATU" Multiplicity="0..1" />
+    <End Type="DBMVCSCModel.AUTO" Role="AUTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VHESTATU">
+        <PropertyRef Name="IDestatus" />
+      </Principal>
+      <Dependent Role="AUTO">
+        <PropertyRef Name="miEstatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

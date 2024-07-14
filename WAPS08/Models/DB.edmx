@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DBMVCSCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AUTOS">
+          <Key>
+            <PropertyRef Name="IDauto" />
+          </Key>
+          <Property Name="IDauto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Marca" Type="nvarchar" MaxLength="50" />
+          <Property Name="Modelo" Type="nvarchar" MaxLength="50" />
+          <Property Name="Anio" Type="varchar" MaxLength="5" />
+          <Property Name="Color" Type="nvarchar" MaxLength="30" />
+          <Property Name="TipoVehiculo" Type="nvarchar" MaxLength="30" />
+          <Property Name="Precio" Type="float" />
+          <Property Name="ImgRuta" Type="text" />
+          <Property Name="miEstatus" Type="int" />
+          <Property Name="Direccion" Type="text" />
+        </EntityType>
+        <EntityType Name="mStatus">
+          <Key>
+            <PropertyRef Name="Idstatus" />
+          </Key>
+          <Property Name="Idstatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="USERS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Edad" Type="int" Nullable="false" />
+          <Property Name="idEstatus" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VHESTATUS">
+          <Key>
+            <PropertyRef Name="IDestatus" />
+          </Key>
+          <Property Name="IDestatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_AUTOS_VHESTATUS">
+          <End Role="VHESTATUS" Type="Self.VHESTATUS" Multiplicity="0..1" />
+          <End Role="AUTOS" Type="Self.AUTOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="VHESTATUS">
+              <PropertyRef Name="IDestatus" />
+            </Principal>
+            <Dependent Role="AUTOS">
+              <PropertyRef Name="miEstatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_USERS_mStatus">
+          <End Role="mStatus" Type="Self.mStatus" Multiplicity="1" />
+          <End Role="USERS" Type="Self.USERS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mStatus">
+              <PropertyRef Name="Idstatus" />
+            </Principal>
+            <Dependent Role="USERS">
+              <PropertyRef Name="idEstatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBMVCSCModelStoreContainer">
+          <EntitySet Name="AUTOS" EntityType="Self.AUTOS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="mStatus" EntityType="Self.mStatus" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VHESTATUS" EntityType="Self.VHESTATUS" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_AUTOS_VHESTATUS" Association="Self.FK_AUTOS_VHESTATUS">
+            <End Role="VHESTATUS" EntitySet="VHESTATUS" />
+            <End Role="AUTOS" EntitySet="AUTOS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_USERS_mStatus" Association="Self.FK_USERS_mStatus">
+            <End Role="mStatus" EntitySet="mStatus" />
+            <End Role="USERS" EntitySet="USERS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBMVCSCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DBMVCSCEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="mStatus" EntityType="DBMVCSCModel.mStatu" />
+          <EntitySet Name="USERS" EntityType="DBMVCSCModel.USER" />
+          <AssociationSet Name="FK_USERS_mStatus" Association="DBMVCSCModel.FK_USERS_mStatus">
+            <End Role="mStatu" EntitySet="mStatus" />
+            <End Role="USER" EntitySet="USERS" />
+          </AssociationSet>
+          <EntitySet Name="AUTOS" EntityType="DBMVCSCModel.AUTO" />
+          <EntitySet Name="VHESTATUS" EntityType="DBMVCSCModel.VHESTATU" />
+          <AssociationSet Name="FK_AUTOS_VHESTATUS" Association="DBMVCSCModel.FK_AUTOS_VHESTATUS">
+            <End Role="VHESTATU" EntitySet="VHESTATUS" />
+            <End Role="AUTO" EntitySet="AUTOS" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="mStatu">
+          <Key>
+            <PropertyRef Name="Idstatus" />
+          </Key>
+          <Property Name="Idstatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="USERS" Relationship="DBMVCSCModel.FK_USERS_mStatus" FromRole="mStatu" ToRole="USER" />
+        </EntityType>
+        <EntityType Name="USER">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Edad" Type="Int32" Nullable="false" />
+          <Property Name="idEstatus" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="mStatu" Relationship="DBMVCSCModel.FK_USERS_mStatus" FromRole="USER" ToRole="mStatu" />
+        </EntityType>
+        <Association Name="FK_USERS_mStatus">
+          <End Type="DBMVCSCModel.mStatu" Role="mStatu" Multiplicity="1" />
+          <End Type="DBMVCSCModel.USER" Role="USER" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mStatu">
+              <PropertyRef Name="Idstatus" />
+            </Principal>
+            <Dependent Role="USER">
+              <PropertyRef Name="idEstatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="AUTO">
+          <Key>
+            <PropertyRef Name="IDauto" />
+          </Key>
+          <Property Name="IDauto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="miEstatus" Type="Int32" />
+          <Property Name="ImgRuta" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Modelo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Anio" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="VHESTATU" Relationship="DBMVCSCModel.FK_AUTOS_VHESTATUS" FromRole="AUTO" ToRole="VHESTATU" />
+          <Property Name="Color" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="TipoVehiculo" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="Precio" Type="Double" />
+          <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="VHESTATU">
+          <Key>
+            <PropertyRef Name="IDestatus" />
+          </Key>
+          <Property Name="IDestatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AUTOS" Relationship="DBMVCSCModel.FK_AUTOS_VHESTATUS" FromRole="VHESTATU" ToRole="AUTO" />
+        </EntityType>
+        <Association Name="FK_AUTOS_VHESTATUS">
+          <End Type="DBMVCSCModel.VHESTATU" Role="VHESTATU" Multiplicity="0..1" />
+          <End Type="DBMVCSCModel.AUTO" Role="AUTO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="VHESTATU">
+              <PropertyRef Name="IDestatus" />
+            </Principal>
+            <Dependent Role="AUTO">
+              <PropertyRef Name="miEstatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBMVCSCModelStoreContainer" CdmEntityContainer="DBMVCSCEntities">
+          <EntitySetMapping Name="mStatus">
+            <EntityTypeMapping TypeName="DBMVCSCModel.mStatu">
+              <MappingFragment StoreEntitySet="mStatus">
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Idstatus" ColumnName="Idstatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USERS">
+            <EntityTypeMapping TypeName="DBMVCSCModel.USER">
+              <MappingFragment StoreEntitySet="USERS">
+                <ScalarProperty Name="idEstatus" ColumnName="idEstatus" />
+                <ScalarProperty Name="Edad" ColumnName="Edad" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AUTOS">
+            <EntityTypeMapping TypeName="DBMVCSCModel.AUTO">
+              <MappingFragment StoreEntitySet="AUTOS">
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="TipoVehiculo" ColumnName="TipoVehiculo" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="Anio" ColumnName="Anio" />
+                <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+                <ScalarProperty Name="ImgRuta" ColumnName="ImgRuta" />
+                <ScalarProperty Name="miEstatus" ColumnName="miEstatus" />
+                <ScalarProperty Name="Marca" ColumnName="Marca" />
+                <ScalarProperty Name="IDauto" ColumnName="IDauto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VHESTATUS">
+            <EntityTypeMapping TypeName="DBMVCSCModel.VHESTATU">
+              <MappingFragment StoreEntitySet="VHESTATUS">
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="IDestatus" ColumnName="IDestatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

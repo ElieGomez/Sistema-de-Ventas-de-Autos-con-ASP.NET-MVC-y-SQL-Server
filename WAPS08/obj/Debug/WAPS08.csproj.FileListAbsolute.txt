@@ -1,0 +1,537 @@
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\WAPS08.dll.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\csc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\csc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\csc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\csi.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\csi.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\System.AppContext.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\vbc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\vbc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\vbc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\Antlr3.Runtime.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\Newtonsoft.Json.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Helpers.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Mvc.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Optimization.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.WebPages.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\WebGrease.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Helpers.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Mvc.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Optimization.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.WebPages.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\Newtonsoft.Json.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\Antlr3.Runtime.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\obj\Debug\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\obj\Debug\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\EntityFramework.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\EntityFramework.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08\WAPS08\obj\Debug\WAPS08.csprojResolveAssemblyReference.cache
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\WAPS08.dll.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\csc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\csc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\csc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\csi.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\csi.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\System.AppContext.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\vbc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\vbc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\vbc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\Antlr3.Runtime.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\EntityFramework.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\Newtonsoft.Json.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Helpers.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Mvc.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Optimization.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.WebPages.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\WebGrease.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\EntityFramework.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Helpers.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Mvc.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Optimization.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.WebPages.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\Newtonsoft.Json.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\Antlr3.Runtime.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\obj\Debug\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\obj\Debug\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\obj\Debug\WAPS08.csproj.AssemblyReference.cache
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230102\WAPS08\obj\Debug\WAPS08.csproj.CopyComplete
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\WAPS08.dll.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\csc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\csc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\csc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\csi.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\csi.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\System.AppContext.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\vbc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\vbc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\vbc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\Antlr3.Runtime.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\EntityFramework.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\Newtonsoft.Json.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Helpers.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Mvc.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Optimization.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.WebPages.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\WebGrease.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\EntityFramework.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Helpers.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Mvc.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Optimization.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.WebPages.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\Newtonsoft.Json.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\Antlr3.Runtime.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\obj\Debug\WAPS08.csproj.AssemblyReference.cache
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\obj\Debug\WAPS08.csproj.CopyComplete
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\obj\Debug\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\MVCS08\WAPS08 - 20230215\WAPS08\obj\Debug\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\obj\Debug\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\obj\Debug\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\WAPS08.dll.config
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\WAPS08.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\WAPS08.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\csc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\csc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\csc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\csi.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\csi.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\System.AppContext.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\vbc.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\vbc.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\vbc.rsp
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\Antlr3.Runtime.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\EntityFramework.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\Newtonsoft.Json.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Helpers.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Mvc.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Optimization.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.WebPages.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\WebGrease.dll
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\EntityFramework.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Helpers.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Mvc.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Optimization.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.WebPages.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\Newtonsoft.Json.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\Antlr3.Runtime.pdb
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\obj\Debug\WAPS08.csproj.CopyComplete
+C:\ITLA 2023 C1 EN AULA\PGR03\SC00\WAPS08\obj\Debug\WAPS08.csproj.AssemblyReference.cache
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\WAPS08.dll.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\WAPS08.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\WAPS08.pdb
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\csc.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\csc.exe.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\csc.rsp
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\csi.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\csi.rsp
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\System.AppContext.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\vbc.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\vbc.exe.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\vbc.rsp
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\Antlr3.Runtime.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\EntityFramework.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\Newtonsoft.Json.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Helpers.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Mvc.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Optimization.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Razor.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.WebPages.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\WebGrease.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\EntityFramework.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Helpers.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Mvc.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Optimization.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.Razor.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.WebPages.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\Newtonsoft.Json.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\Antlr3.Runtime.pdb
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\obj\Debug\WAPS08.csproj.CopyComplete
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\obj\Debug\WAPS08.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00\WAPS08\obj\Debug\WAPS08.pdb
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\obj\Debug\WAPS08.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\obj\Debug\WAPS08.pdb
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\WAPS08.dll.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\WAPS08.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\WAPS08.pdb
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\csc.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\csc.exe.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\csc.rsp
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\csi.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\csi.rsp
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\System.AppContext.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\vbc.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\vbc.exe.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\vbc.rsp
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\Antlr3.Runtime.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\EntityFramework.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\Newtonsoft.Json.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Helpers.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Mvc.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Optimization.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Razor.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.WebPages.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\WebGrease.dll
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\EntityFramework.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Helpers.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Mvc.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Optimization.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.Razor.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.WebPages.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\Newtonsoft.Json.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\Antlr3.Runtime.pdb
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\obj\Debug\WAPS08.csproj.CopyComplete
+C:\ITLA 2023 C2\PRG 3\SC08\SC00 - 08\WAPS08\obj\Debug\WAPS08.csproj.AssemblyReference.cache
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\WAPS08.dll.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\WAPS08.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\WAPS08.pdb
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\csc.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\csc.exe.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\csc.rsp
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\csi.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\csi.rsp
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\System.AppContext.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\vbc.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\vbc.exe.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\vbc.rsp
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\Antlr3.Runtime.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\EntityFramework.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\Newtonsoft.Json.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Helpers.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Mvc.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Optimization.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Razor.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.WebPages.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\WebGrease.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\EntityFramework.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Helpers.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Mvc.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Optimization.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.Razor.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.WebPages.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\Newtonsoft.Json.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\Antlr3.Runtime.pdb
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\obj\Debug\WAPS08.csproj.AssemblyReference.cache
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\obj\Debug\WAPS08.csproj.CopyComplete
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\obj\Debug\WAPS08.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\SC00 - 08\WAPS08\obj\Debug\WAPS08.pdb
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\WAPS08.dll.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\WAPS08.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\WAPS08.pdb
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\csc.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\csc.exe.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\csc.rsp
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\csi.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\csi.rsp
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\System.AppContext.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\vbc.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\vbc.exe.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\vbc.rsp
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\Antlr3.Runtime.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\EntityFramework.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\Newtonsoft.Json.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Helpers.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Mvc.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Optimization.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Razor.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.WebPages.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\WebGrease.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\EntityFramework.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Helpers.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Mvc.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Optimization.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.Razor.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.WebPages.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\Newtonsoft.Json.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\Antlr3.Runtime.pdb
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\obj\Debug\WAPS08.csproj.AssemblyReference.cache
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\obj\Debug\WAPS08.csproj.CopyComplete
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\obj\Debug\WAPS08.dll
+C:\Users\MSI GL65\Desktop\Materias ITLA\Programacion III\PG3 CARSVIEW\WAPS08\obj\Debug\WAPS08.pdb
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\WAPS08.dll.config
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\WAPS08.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\WAPS08.pdb
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\csc.exe
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\csc.exe.config
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\csc.rsp
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\csi.exe
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\csi.rsp
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\System.AppContext.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\vbc.exe
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\vbc.exe.config
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\vbc.rsp
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\Antlr3.Runtime.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\EntityFramework.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\EntityFramework.SqlServer.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\Newtonsoft.Json.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Helpers.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Mvc.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Optimization.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Razor.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.WebPages.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.WebPages.Razor.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\WebGrease.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\EntityFramework.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\EntityFramework.SqlServer.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Helpers.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Mvc.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Optimization.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.Razor.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.WebPages.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\System.Web.WebPages.Razor.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\Newtonsoft.Json.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\Antlr3.Runtime.pdb
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\obj\Debug\WAPS08.csproj.AssemblyReference.cache
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\obj\Debug\WAPS08.csproj.CoreCompileInputs.cache
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\obj\Debug\WAPS08.csproj.Up2Date
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\obj\Debug\WAPS08.dll
+C:\Users\MSI GL65\Desktop\PrivCars\VentasDeAutos\WAPS08\obj\Debug\WAPS08.pdb

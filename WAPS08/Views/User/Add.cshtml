@@ -1,0 +1,88 @@
+﻿@model WAPS08.Models.ViewModels.AddUserViewModels
+@{
+    ViewBag.Title = "Agregar usuarios";
+    //Layout = "~/Views/Shared/_LayoutAcceso.cshtml";
+}
+<head>
+    <style>
+        .boton-volver {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+            .boton-volver:hover {
+                background-color: #333;
+                color: #fff;
+            }
+        .boton-guardar {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #00ff21;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+            .boton-guardar:hover {
+                background-color: #00ff21;
+                color: #000000;
+            }
+    </style>
+</head>
+
+<h2 style="font-family: Georgia, 'Times New Roman', Times, serif; text-align:center"> Agregar Usuario</h2>
+
+<div class="col-md-12">
+    <br />
+    <br />
+
+    @using (Html.BeginForm("Add", "User", FormMethod.Post, new { role = "form", @class = "" }))
+    {
+        //@Html.AntiForgeryToken()
+
+        @Html.ValidationMessage("error", new { @class = "text-danger" })
+
+        @Html.LabelFor(d => d.Nombre, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+        @Html.TextBoxFor(d => d.Nombre, new { @class = "form-control" })
+        @Html.ValidationMessage("Nombre", new { @class = "text-danger" })
+        <br />
+
+        @Html.LabelFor(d => d.Email, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+        @Html.TextBoxFor(d => d.Email, new { @class = "form-control" })
+        @Html.ValidationMessage("Email", new { @class = "text-danger" })
+        <br />
+
+        @Html.LabelFor(d => d.Password, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+        @Html.PasswordFor(d => d.Password, new { @class = "form-control" })
+        @Html.ValidationMessage("Password", new { @class = "text-danger" })
+        <br />
+
+        @Html.LabelFor(d => d.ConfirmaPassword, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+        @Html.PasswordFor(d => d.ConfirmaPassword, new { @class = "form-control" })
+        @Html.ValidationMessage("Confirma Password", new { @class = "text-danger" })
+        <br />
+
+        @Html.LabelFor(d => d.Edad, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;" })
+        @Html.TextBoxFor(d => d.Edad, new { @class = "form-control" })
+        @Html.ValidationMessage("Edad", new { @class = "text-danger" })
+        <br />
+
+        <div style="text-align:left;">
+            <input type="submit" value="Guardar" class="boton-guardar" />
+            <input type="button" value="Volver Atras" class="boton-volver" onclick="document.location.href = '@Url.Content("~/user/query")'" />
+        </div>
+
+        <br />
+        <br />
+    }
+</div>

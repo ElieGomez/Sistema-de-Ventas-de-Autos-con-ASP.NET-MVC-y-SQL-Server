@@ -1,0 +1,112 @@
+﻿@model WAPS08.Models.ViewModels.AutoTableViewModel
+
+<head>
+    <style>
+        .container-imagen {
+            width: 100%; /* Ancho del contenedor al 100% */
+            height: 100%; /* Altura del contenedor al 100% */
+            display: flex; /* Para que la imagen ocupe todo el espacio disponible */
+            justify-content: center; /* Centra horizontalmente la imagen */
+            align-items: center; /* Centra verticalmente la imagen */
+        }
+
+            .container-imagen img {
+                max-width: 100%; /* La imagen se ajusta al ancho máximo del contenedor */
+                max-height: 100%; /* La imagen se ajusta a la altura máxima del contenedor */
+                border: solid 2px black;
+                border-radius: 10%
+            }
+        .boton-volver {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+            .boton-volver:hover {
+                background-color: #333;
+                color: #fff;
+            }
+    </style>
+</head>
+
+<h2 style="font-family: Georgia, 'Times New Roman', Times, serif; text-align:center">Detalles del Vehiculo</h2>
+
+
+<br />
+
+
+
+<div class="col-lg-12">
+    <table class="table table-bordered">
+        <tr>
+            <th style="background-color: black; color: white;">ID</th>
+            <th style="background-color: black; color: white;">Marca</th>
+            <th style="background-color: black; color: white;">Modelo</th>
+            <th style="background-color: black; color: white;">Anio</th>
+            <th style="background-color: black; color: white;">TipoVehiculo</th>
+            <th style="background-color: black; color: white;">Color</th>
+            <th style="background-color: black; color: white;">Direccion</th>
+            <th style="background-color: black; color: white;">Precio</th>
+        </tr>
+        <tr>
+            <td>@Model._Idauto</td>
+            <td>@Model._Marca</td>
+            <td>@Model._Modelo</td>
+            <td>@Model._Anio</td>
+            <td>@Model._TipoVehiculo</td>
+            <td>@Model._Color</td>
+            <td>@Model._Direccion</td>
+            <td>@Model._Precio</td>
+        </tr>
+
+    </table>
+</div>
+<div class="container-imagen ">
+    <div class="card" style="max-width: 700px; ">
+        <img style="box-shadow: 0 16px 20px rgb(0,0,0,0.2);" src="@Model._Imagen" class="card-img-top" alt="Imagen del Auto">
+    </div>
+</div>
+<div style=" text-align: right; margin-top: -35px">
+    <input type="button" class="boton-volver" style="margin-top : 54px" value="Volver Atras" onclick="document.location.href = '@Url.Content("~/Auto/Query")'" />
+</div>
+
+
+@*<div>
+    <dl class="row">
+        <dt class="col-sm-3">ID:</dt>
+        <dd class="col-sm-9">@Model._Idauto</dd>
+
+        <dt class="col-sm-3">Marca:</dt>
+        <dd class="col-sm-9">@Model._Marca</dd>
+
+        <dt class="col-sm-3">Modelo:</dt>
+        <dd class="col-sm-9">@Model._Modelo</dd>
+
+        <dt class="col-sm-3">Año:</dt>
+        <dd class="col-sm-9">@Model._Anio</dd>
+
+        <dt class="col-sm-3">Color:</dt>
+        <dd class="col-sm-9">@Model._Color</dd>
+
+        <dt class="col-sm-3">Dirección:</dt>
+        <dd class="col-sm-9">@Model._Direccion</dd>
+
+        <dt class="col-sm-3">Precio:</dt>
+        <dd class="col-sm-9">@Model._Precio</dd>
+
+        <dt class="col-sm-3">Tipo de Vehículo:</dt>
+        <dd class="col-sm-9">@Model._TipoVehiculo</dd>
+    </dl>
+</div>
+
+<div>
+    <p>
+        @Html.ActionLink("Volver atrás", "Query")
+    </p>
+</div>*@

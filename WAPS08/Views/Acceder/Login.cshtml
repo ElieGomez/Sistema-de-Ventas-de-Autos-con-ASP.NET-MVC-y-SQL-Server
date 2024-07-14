@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAcceso.cshtml"; @* le estamos indicando que utilizaremos este LayOut *@
+}
+
+<head>
+    @*<link href="@Url.Content("~/Content/Css/login.css")" rel="stylesheet" type="text/css" />*@
+</head>
+    <div class="form-container sign-in-container">
+        <form action="#" id="frmAcceder">
+            <h2>Iniciar Sección</h2>
+            <span>Usa Tu Cuenta</span>
+            <input type="email" name="usuario" placeholder="Correo" />
+            <input type="password"  name="password" placeholder="Contraseña" />
+            <a href="#">Olvidaste Tu Contraseña?</a>
+            <button type="submit" style="cursor:pointer" value="Entrar" id="Entrar">Entrar</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Hola, Amigo!</h1>
+                <p>Ingresa tus datos personales y comienza tu viaje con nosotros</p>
+                <button class="ghost" style="cursor:pointer" id="signUp">Registrarte</button>
+            </div>
+        </div>
+    </div>
+
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function()
+        {                                                // con #frmAcceder que es el ID anterior
+            $("#frmAcceder").submit(function(e)          // permite iniciar el envio de esta vista al backend en este caso accederController
+            {
+                e.preventDefault();                      // cancela el evento, es decir no permite que el submit lo haga tipo clasico.
+                url = "@Url.Content("~/acceder/enter")"  // le indico la direccion url
+                parametros = $(this).serialize();        // obtenemos los elementos preparados para una peticion del backend
+
+                $.post(url, parametros, function (data)  // envia una entidad a un recurso en especifico
+                {
+                    if (data == 1)                       // cuando data sea igual a 1 ejecutara la url, este dato viene del BackEnd
+                    {
+                        document.location.href = "@Url.Content("~/")"  // permite obtener o establecer la dirección de la página
+                        // que se muestra en la ventana del navegador
+                    }
+                    else
+                    {
+                        alert(data)    // abrira una caja de mensaje indicando un error
+                    }
+                })
+            })
+        })
+    </script>
+}
+
+
+

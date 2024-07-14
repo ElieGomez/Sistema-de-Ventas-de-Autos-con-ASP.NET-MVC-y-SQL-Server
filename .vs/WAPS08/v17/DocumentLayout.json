@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|c:\\users\\msi gl65\\desktop\\privcars\\ventasdeautos\\waps08\\models\\db.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\models\\db.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|c:\\users\\msi gl65\\desktop\\privcars\\ventasdeautos\\waps08\\models\\db.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\models\\db.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|c:\\users\\msi gl65\\desktop\\privcars\\ventasdeautos\\waps08\\views\\auto\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\views\\auto\\query.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\waps08\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\views\\acceder\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\waps08\\views\\auto\\addauto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\views\\auto\\addauto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\waps08\\views\\auto\\editauto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\views\\auto\\editauto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\waps08\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\waps08\\models\\viewmodels\\autoviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\models\\viewmodels\\autoviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\waps08\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\models\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\waps08\\views\\auto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2F12B1-948C-4262-AB2F-CBF7A6131880}|WAPS08\\WAPS08.csproj|solutionrelative:waps08\\views\\auto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DB.Context.tt",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\DB.Context.tt",
+              "RelativeDocumentMoniker": "WAPS08\\Models\\DB.Context.tt",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\DB.Context.tt",
+              "RelativeToolTip": "WAPS08\\Models\\DB.Context.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-14T20:44:17.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DB.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\DB.edmx",
+              "RelativeDocumentMoniker": "WAPS08\\Models\\DB.edmx",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\DB.edmx [Diagram1]",
+              "RelativeToolTip": "WAPS08\\Models\\DB.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-14T20:44:06.467Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Query.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\Query.cshtml",
+              "RelativeDocumentMoniker": "WAPS08\\Views\\Auto\\Query.cshtml",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\Query.cshtml",
+              "RelativeToolTip": "WAPS08\\Views\\Auto\\Query.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T20:38:47.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddAuto.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\AddAuto.cshtml",
+              "RelativeDocumentMoniker": "WAPS08\\Views\\Auto\\AddAuto.cshtml",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\AddAuto.cshtml",
+              "RelativeToolTip": "WAPS08\\Views\\Auto\\AddAuto.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAIkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-07-14T20:38:47.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditAuto.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\EditAuto.cshtml",
+              "RelativeDocumentMoniker": "WAPS08\\Views\\Auto\\EditAuto.cshtml",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\EditAuto.cshtml",
+              "RelativeToolTip": "WAPS08\\Views\\Auto\\EditAuto.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-07-14T20:38:47.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AUTO.cs",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\AUTO.cs",
+              "RelativeDocumentMoniker": "WAPS08\\Models\\AUTO.cs",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\AUTO.cs",
+              "RelativeToolTip": "WAPS08\\Models\\AUTO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-14T20:38:47.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutoViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\ViewModels\\AutoViewModels.cs",
+              "RelativeDocumentMoniker": "WAPS08\\Models\\ViewModels\\AutoViewModels.cs",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Models\\ViewModels\\AutoViewModels.cs",
+              "RelativeToolTip": "WAPS08\\Models\\ViewModels\\AutoViewModels.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA2wBUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T20:38:47.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Controllers\\AutoController.cs",
+              "RelativeDocumentMoniker": "WAPS08\\Controllers\\AutoController.cs",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Controllers\\AutoController.cs",
+              "RelativeToolTip": "WAPS08\\Controllers\\AutoController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAowKIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T20:38:47.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Acceder\\Login.cshtml",
+              "RelativeDocumentMoniker": "WAPS08\\Views\\Acceder\\Login.cshtml",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Acceder\\Login.cshtml",
+              "RelativeToolTip": "WAPS08\\Views\\Acceder\\Login.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAABRwCwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T20:38:47.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\Details.cshtml",
+              "RelativeDocumentMoniker": "WAPS08\\Views\\Auto\\Details.cshtml",
+              "ToolTip": "C:\\Users\\MSI GL65\\Desktop\\PrivCars\\VentasDeAutos\\WAPS08\\Views\\Auto\\Details.cshtml",
+              "RelativeToolTip": "WAPS08\\Views\\Auto\\Details.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAADoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-07-14T20:38:47.87Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 826,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
