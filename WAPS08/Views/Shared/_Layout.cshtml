@@ -5,6 +5,7 @@
         body {
             background: url(/Content/Img/fondo.jpg);
         }
+
         footer {
             background-color: #222;
             color: #fff;
@@ -29,37 +30,75 @@
                 color: #3c97bf;
                 text-decoration: none;
             }
-    </style>    
+    </style>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Mi Aplicacion ASP.NET</title>
     @Styles.Render("~/Content/Css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById("menuItems");
+        menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+    }
+</script>
+
 <body>
     <br />
     <br />
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Priv-Company", "Index", "Home", new { area = "" }, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;",@class = "navbar-brand" })
+
+    <nav class="custom-navbar">
+        <div class="custom-container">
+
+            <div class="custom-brand">
+                @Html.ActionLink(
+                    "Priv-Company",
+                    "Index",
+                    "Home",
+                    null,
+                    new { @class = "brand-link" }
+                )
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Usuario", "Query", "User")</li>
-                    <li>@Html.ActionLink("Autos", "Query", "Auto")</li>
-                    <li>@Html.ActionLink("Cerrar sesion", "Logoff", "CerrarSession")</li>
-                </ul>
-            </div>
+
+            <!-- Botón hamburguesa -->
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+            <!-- Menú -->
+            <ul id="menuItems" class="custom-menu">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Usuario", "Query", "User")</li>
+                <li>@Html.ActionLink("Autos", "Query", "Auto")</li>
+                <li>@Html.ActionLink("Cerrar sesión", "Logoff", "CerrarSession")</li>
+            </ul>
+
         </div>
-    </div>
+    </nav>
+
+
+
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Priv-Company", "Index", "Home", new { area = "" }, new { style = "font-family: Georgia, 'Times New Roman', Times, serif;",@class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Usuario", "Query", "User")</li>
+                        <li>@Html.ActionLink("Autos", "Query", "Auto")</li>
+                        <li>@Html.ActionLink("Cerrar sesion", "Logoff", "CerrarSession")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
 
     <div class="container body-content">
         @RenderBody()

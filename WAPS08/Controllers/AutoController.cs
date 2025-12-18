@@ -151,7 +151,7 @@ namespace WAPS08.Controllers
             using (var db = new DBMVCSCEntities())
             {
                 var oUser = db.AUTOS.Find(Id);
-                oUser.miEstatus = 3;
+                oUser.miEstatus = 2;
 
                 db.Entry(oUser).State = System.Data.Entity.EntityState.Modified;
                 db.SaveChanges();

@@ -22,3 +22,88 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+
+
+
+.custom-navbar {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.brand-link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+    .brand-link:hover {
+        color: #ddd;
+    }
+
+.menu-toggle {
+    margin-left: auto;
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.custom-menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+    .custom-menu li {
+        margin-left: 20px;
+    }
+
+    .custom-menu a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .custom-menu a:hover {
+            color: #ddd;
+        }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .custom-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #222;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+        .custom-menu li {
+            margin: 10px 0;
+        }
+}
